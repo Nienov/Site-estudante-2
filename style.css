@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .cabeçalho {
     background-color: #12216B;
     color: white;
@@ -40,4 +44,37 @@
 
 .escola-titulo{
     padding: 10% 0;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-logo{
+    width: 24px;
+    padding: -5%;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%
+}
+
+.rodape{
+    background-color: #12216B;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 75px;
+    padding: 12px 0;
 }
